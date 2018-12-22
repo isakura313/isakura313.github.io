@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ul li a{
+    color: yellow;
+    padding: 14em;
+    font-size: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+ul{
+    height: 2em;
+}
+header{
+    height: 700px;
+    background: url(background-beautiful-blossom-268533.jpg); 
+    background-size: 50% 50%: 
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.wrapper img{
+    width: 30%;
+    height: 30%;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+.tel img{
+    width: 183px;
+    height: 183px;
+}
+.mail img{
+    width: 183px;
+    height: 183px;
+}
+.tel{
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+.mail{
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+.obomne{
+    text-align: center;
+}
+.kontakt h2{
+    padding: 1em;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 30px
+}
+.obomne h2{
+    padding: 1em;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 30px   
+}
+.obomne h4{
+    font-family: 'Seymour One', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 2em;
+}
+ul li{
+    display: inline;
+    height: 2em;
+}
+.gallery h2{
+    padding: 0.5em;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.obomne img{
+    padding: 2em
+}
+footer{
+    font-family: 'Ruthie', cursive;
+}

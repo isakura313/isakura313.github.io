@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1{
+    text-align: center !important;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+.about,.Equipment{
+display: flex;  
+align-items: flex-start;   
+}
+.about p{
+    padding: 1em;
+    font-size: 1.2em;
+}
+p{
+    font-family: 'Noto Serif', serif;
+}
+ol{
+    padding: 2em;
+    font-size: 2em;
+}
+header{
+    background: url(image\ 4.png)
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.wrapper img{
+    width: auto;
+    height: 85%;
+}
+form{
+    text-align: center;
+    padding-top: 2em;
+    margin-top: 2em;
+}
+footer{
+    font-size: 2em;
+    text-align: center;
+    background-color: black;
+    color: blue;
+}
+.form{
+    background-color: blue;
+
+}
