@@ -1,0 +1,160 @@
+/* импорт двух важных библиотек: в одной у нас более-менее нарисован UI, в другой у нас происходит масксимально кросс-браузерный сброс стилей */
+/* посмотрим, насколько это поможет */
+
+@import 'css/norm.css';
+@import 'css/picnic.css';
+@font-face{
+    font-family:"Blooming";
+    src: url("fonts/Blooming\ Elegant\ Sans.otf") format("opentype");
+}
+
+/* здесь пойдут мои собственные стили */
+.main_screen{
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.main_screen__greeting{
+    margin-top: 7vw;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50vw;
+    align-items: space-around;
+    height: 500px;
+   
+}
+.main_screen__greting_p{
+    font-family: 'PT Serif', serif;
+    font-size: 1.4em;
+}
+.main_screen__greeting_h1{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  
+}
+.main_screen__greeting_wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.main_screen__greeting_button{
+    width: 30%;
+    outline: none;
+    /* font-size: 1.2em; */
+    height:50px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 0.8px;
+    margin-top: 27px;
+}
+
+/* вторая страница */
+.main_screen_settings{
+    margin-top: 3vw;
+}
+.main_screen_settings_select{
+    width: 300px;
+    margin-bottom: 2vw;
+}
+.main_screen_settings_wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 3vw;
+}
+.main_screen_settings_h1{
+    font-size: 2em;
+    font-size: 'Playfair Display', serif;
+}
+.main_screen_settings_h2{
+    font-size: 1em;
+    font-family: 'PT serif';
+}
+.main_screen_register{
+    display: flex;
+    padding-top: 2vw;
+
+}
+.main_screen_register_first_form,.main_screen_register_second_form, .main_screen_register_third_form{
+margin-left: 1em;
+margin-right: 1em;
+}
+.main_screen_register input{
+    margin-bottom: 1em;
+}
+.main_screen_chat_wrapper{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 10px;
+    align-items: center;
+}
+.main_screen_chat_wrapper button{
+    font-size: 1vw;
+    width: 100px;
+    /* height: 40px; */
+    margin-left: 15px;
+    
+}
+.main_screen_chat_wrapper textarea{
+    margin:0 !important;
+    font-size: 0.5em !important;
+    /* height: 3em; */
+}
+.main_chat{
+    background-color: #292A2F;
+    color: #D3D3D4;
+    width: 80%;
+    /* height:800px; */
+  
+}
+.main_chat_message{
+    padding-left: 2em;
+    padding-top: 1em;
+    display: flex;
+
+}
+.main_chat_nick{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+
+}
+
+.main_chat_message_text,.main_chat_nick {
+    font-size: 14px;
+    font-family: "Bloom";
+    letter-spacing: 1.2px;
+}
+.main_chat_message_ava{
+    height:50px;
+    width: 50px;
+    /* background-color:red; */
+    /* background-image:url("https://pp.userapi.com/c629518/v629518291/11c44/9Gzk0fCHJ6M.jpg"); */
+    background-size: 100%;
+    border-radius: 50%;
+}
+.button_stack button{
+    font-size: 20px;
+}
+.button_stack{
+    height: 300px;
+}
+.user1{
+    color: #FF6A00;
+}
+.user2{
+    color:#4562F0;
+}
+.user3{
+    color: #9741D7;
+}
