@@ -4,54 +4,130 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* конечный сброс стилей */
+
+@import "responsive.css";
+
+
+@media screen and (max-width: 600px)  {
+
+    .quote{
+        font-size: 14px;
+    }
+
+    .main_input {
+        font-size: 0.6em !important;
+        padding: 8px !important;
+    }
+    .main_input::placeholder{
+        font-size: 14px;
+    }
+
+    .button_plus i{
+        color: white;
+        font-size: 1.3em !important;
+    }
+    .button_plus{
+        height: 8vw !important;
+        width: 8vw !important;
+
+    }
+    }
+
+
+    @media screen and (max-width: 375px)  {
+
+        .quote{
+            font-size: 12px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .main_input {
+            font-size: 14px !important;
+            padding: 8px;
+
+        }
+        
+        .main_input::placeholder{
+            font-size: 12px;
+        }
+        .button_plus i{
+            color: white;
+            font-size: 0.8em !important;
+        }
+        .button_plus{
+            height: 10vw !important;
+            width: 10vw !important;
+    
+        }
+        .trash {
+
+            font-size: 1.2em;
+        }
+        }
+
+
+
+
+
+
+
+
 body {
     background-color: #003D42;
 }
 /* обертка для всего приложения */
-.logo{
-    width: 75px;
-    padding-right: 0.5em;
-}
-.main_wrap {
+
+.app_wrapper {
     display: flex;
-    justify-content: center;
-    margin-left: 20%;
     flex-direction: column;
+    align-items: center;
 }
-.todo_monster{
+
+.logo_app{
     display: flex;
     align-items: center;
     margin-top: 1em;
     margin-bottom: 0.3em;
+    justify-content: center;
 }
-.todo_monster h1 {
+
+.logo_app__logo{
+    width: 75px;
+    padding-right: 0.5em;
+}
+
+.logo_app h1 {
     font-family: Merriweather;
     font-size: 6vw;
     color: #F07630;
 }
 
-.motivation_speech {
+.quote {
     height: 50px;
     font-family: Merriweather;
     color:rgb(255, 250, 250);
     padding-bottom: 0.3em;
+    padding-top: 0.1em;
+    justify-content: center;
+    display: flex;
 }
 .input_task {
     display: flex;
+    justify-content: center;
 }
-input {
-    width: 55vw;
+.main_input {
+    width: 50vw;
     height: 37px;
     padding: 20px;
-    font-size: 20pt;
+    font-size: 1.2em;
     outline: none;
     border-radius: 3px;
+
 }
 .button_plus{
     background-color: #347437;
-    height: 44px;
-    width: 44px;
+    height: 5vw;
+    width: 5vw;
     margin-left: 1.2em;
     cursor: pointer;
     border-radius: 50%;
@@ -68,39 +144,49 @@ input {
     transition: all 0.5s;
     background-color: #ED492F;
 }
-.task {
-    width: 80%;
-    height: 50px;
-    padding: 10px;
+.wrapper_tasks {
+    /* width: 80%; */
+    /* height: 50px; */
+    /* padding: 20px; */
     margin-top: 0.8em;
-    background: #FAFAFA;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    font-size: 2em;
+    align-items: space-around;
+    font-size: 1em;
     font-family: Roboto, serif;
-}
-.wrap-task {
-    display: flex;
-    align-items: center;
-    
-}
-.task img{
-    height: 50px;
-    margin-right: 40px;
-    padding: 2px;
- 
-}
-.tasks {
-    width: 80%;
+    /* width: 80%; */
     display: flex;
     flex-direction: column;
+    
 }
+.wrapper_single_task {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FAFAFA;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12); */
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-right: 20px;
+    /* padding-top: 3px; */
+    padding-bottom: 3px;
+    padding-left: 20px;
+}
+.simple_task{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper_single_task img{
+    height: 3vw;
+padding-right:5px ;
+
+}
+.wrapper_single_task p{
+    width: 50vw;
+}
+
 .trash {
-    margin-top:20px;
-    margin-left: 0.5em;
-    font-size: 2em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    font-size: 1.8em;
     color: #dfdfdf;
 }
 .trash:hover{
