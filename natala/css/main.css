@@ -16,3 +16,7 @@ textarea, input {
     font-family:"VogueHigh";
     src: url(../fonts/VogueHigh.otf)
 }
+  @font-face{
+    font-family:"Geometrica";
+    src: url(../fonts/GeometricaSans-Regular.ttf)
+}

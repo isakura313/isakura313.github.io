@@ -4,7 +4,7 @@
 .logo_header h2 {
     text-decoration: none;
     color: black;
-    font-family: Vogue;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
     letter-spacing: 1.5px;
     -webkit-font-smoothing: 1px;
@@ -18,7 +18,7 @@
     text-decoration: none;
 }
 .logo_header h5{
-    font-family: Vogue;
+    font-family: "Geometrica", sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -38,6 +38,7 @@
     color: rgb(207, 160, 138);
     font-size: 1.6em;
     letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
     
 }
 .navigation a:hover{

@@ -3,7 +3,7 @@
     color: white;
 }
 .wrap_footer_head_h3, .wrap_footer_head_h5{
-    font-family: 'Vogue', 'Arial', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
 }
 .wrap_footer_head_h3{
@@ -20,7 +20,6 @@
 }
 .form_wrap{
     display: flex;
-    /* width: 100vw; */
     justify-content: space-around;
 }
 form{
@@ -78,11 +77,10 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
     justify-content: space-around;
 }
 .form_wrap, .text_right{
-    font-family: 'Helvetica neue', "Times New Roman", serif;
+    font-family: 'PT serif', sans-serif;
 }
 .text_right{
     font-size: 18px;
     align-self:flex-end;
     margin-left: 33px;
-    font-family: "Helvectica neue", Arial, sens-serif;
 }

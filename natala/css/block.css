@@ -1,6 +1,6 @@
 .wrapper_intro{
-    background: #CFA08A;
-    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.774);
+    color: rgb(0, 0, 0);
     font-size: 23px;
     justify-content: center;
     align-items: center;
@@ -13,8 +13,7 @@
 }
 .wrapper_intro__text{
     width: 90vw;
-    font-family: 'PT Sans', sans-serif;
-    /* font-family: Vogue; */
+    font-family: 'PT Serif', serif;
 
 }
 .wrapper_intro img{
@@ -41,9 +40,8 @@
 .wrapper_about_me__text{
     padding-top: 3%;
     width: 40vw;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Helvectica neue', 'Times New Roman', sans-serif; */
+    font-size: 18px;
+    font-family: 'PT Serif', serif; 
     letter-spacing: 0.3px;
     line-height: 30px;
 }
@@ -52,14 +50,11 @@
     color:rgb(207, 160, 138, 0.9);
     text-align: center;
     letter-spacing: 1.2px;
-    font-family: Vogue, "Times New Roman", sans-serif;
+    font-family: 'Playfair Display', serif;
     padding-bottom: 60px;
     font-size: 1.8em;
 }
-.wrapper_reasons_to_me{
-    /* font-family: "Helvectica neue", "Times New Roman", sans-serif; */
-   
-}
+
 .wrapper_reasons_to_me_wrap{
     display: flex;
     justify-content: space-around;
@@ -87,7 +82,7 @@
     text-align: center;
     padding-left: 70px;
     padding-right: 70px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif; 
     font-size: 18px;
     line-height: 1.5;
 
