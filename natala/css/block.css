@@ -1,14 +1,13 @@
 .wrapper_intro{
-    background: rgba(255, 255, 255, 0.774);
+    background: rgba(216, 212, 212, 0.774);
     color: rgb(0, 0, 0);
-    font-size: 23px;
+    font-size: 19px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* padding-bottom: 22px;
-    padding-top: 30px; */
+
     height: 77vh;
 }
 .wrapper_intro__text{
@@ -18,7 +17,7 @@
 }
 .wrapper_intro img{
     width: 70%;
-    height: auto;
+    height: 70%;
     
 }
 .wrapper_about_me{
@@ -40,7 +39,7 @@
 .wrapper_about_me__text{
     padding-top: 3%;
     width: 40vw;
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'PT Serif', serif; 
     letter-spacing: 0.3px;
     line-height: 30px;
@@ -52,7 +51,7 @@
     letter-spacing: 1.2px;
     font-family: 'Playfair Display', serif;
     padding-bottom: 60px;
-    font-size: 1.8em;
+    font-size: 30px;
 }
 
 .wrapper_reasons_to_me_wrap{
@@ -83,7 +82,7 @@
     padding-left: 70px;
     padding-right: 70px;
     font-family: 'PT Serif', serif; 
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.5;
 
 }

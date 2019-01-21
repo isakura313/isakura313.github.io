@@ -5,14 +5,14 @@
     text-decoration: none;
     color: black;
     font-family: 'Playfair Display', serif;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1.5px;
     -webkit-font-smoothing: 1px;
     font-weight: normal;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 28px;
     padding-top: 0px;
-    margin-top: 15px;
+    margin-top: 1.8em;
 }
 .logo_header  a{
     text-decoration: none;
@@ -36,8 +36,9 @@
 .navigation a{
     text-decoration: none;
     color: rgb(207, 160, 138);
-    font-size: 1.6em;
+    font-size: 1.4em;
     letter-spacing: 1px;
+    font-weight: 100;
     font-family: 'Playfair Display', serif;
     
 }
