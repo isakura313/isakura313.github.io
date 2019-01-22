@@ -1,0 +1,21 @@
+input[type=submit]{
+    background: rgba(238, 230, 226, 100%);
+    border-radius: 25px;
+    font-size: 18px;
+    padding-left:20px;
+    padding-right: 20px;
+    color: rgb(77, 77, 77);
+    border:none;
+    font-family:'helvetica neue', sans-serif;
+    width: 150px;
+    margin-top: 20px;
+    border: 1px solid rgba(207, 160, 138, 0.9);
+    letter-spacing: 1px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    box-shadow: 3px 4px 3px rgba(0,0,0,0.8);
+    color: rgb(24, 24, 24);
+    transition: 0.5s all;
+    border: 1px solid rgba(139, 108, 93, 0.9);
+}
