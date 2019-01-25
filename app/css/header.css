@@ -55,3 +55,33 @@ ul{
     width: 80vw;
     justify-content: space-around;
 }
+
+
+/* здесь дополнительная плашка навигации */
+
+.second_nav{
+    background-color: #2b30a3;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+}
+.second_nav ul{
+    width: 70%;
+}
+.second_nav li{
+    list-style-type:none;
+
+}
+.second_nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    letter-spacing: 0.8px;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+}
+.second_nav a:hover{
+    color: #DDDDDD;
+}

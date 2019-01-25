@@ -89,6 +89,88 @@
 
 }
 
+/* страница о себе */
+.wrapper_about_me_first{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.wrapper_about_me__h2{
+    /* padding-top: 35px; */
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-family: 'Playfair Display', serif;
+    /* padding-bottom: 60px; */
+    font-size: 30px;
+}
+.academic_information{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 45px;
+    padding-top: 30px;
+    align-items: flex-start;
+}
+.academic_infromation_second_column{
+    margin-top: 2em;
+}
+.academic_information_first_column{
+    display: flex;
+    flex-direction:column;
+    margin-right: 5em;
+    text-align: center;
+}
+.academic__h6{
+    letter-spacing: 1.2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color:#2b30a3;
+    margin-top:7px;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+.h6_first{
+    margin-top: 1em;
+   margin-bottom: 1em;
+}
+
+hr{
+    width: 80%;
+    text-align: left;
+    color:#2b30a3;
+    height: 2px;
+}
+.academic__img img{
+    width: 70%;
+    height: auto;
+}
+.academic__img {
+    padding-bottom: 20px;
+}
+.academic__img:first-child{
+    padding-top: 20px;
+}
+.academic_span{
+    font-weight: bold;
+}
+.academic__p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    font-family: 'PT Serif', serif; 
+    line-height: 42px;
+    letter-spacing: 0.6px;
+    -webkit-font-smoothing:subpixel;
+}
+
+
+
+
+
+
+
 /* страница про психотерапию */
 .psy_in_our_life__h3{
     font-family: 'Playfair Display', serif;
@@ -187,6 +269,61 @@
     color: #2b30a3;
     font-weight:200;
 }
+
+/* здесь начинаются полезные материалы */
+.depression_wrapper{
+    margin-top: 35px;
+    margin-bottom: 5em;
+}
+.anxious_wrapper{
+    background-color: #F7F7F7;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.anxious_wrapper, .depression_wrapper, .wrapper_panic{
+    padding-left:7%;
+    padding-right:7%;
+    /* justify-content: center; */
+    /* display: flex; */
+}
+.wrapper_symptoms_depression{
+    margin-bottom: 50px;
+}
+.wrapper_panic {
+    padding-bottom: 55px;
+}
+.anxious_wrapper img, .depression_wrapper img, .wrapper_panic img{
+    width:80%;
+    height: auto;
+}
+.wrapper_symptoms_anxious, .wrapper_sympotms_panic, .wrapper_symptoms_depression{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+.wrapper_symptoms_anxious p, .wrapper_sympotms_panic p, .wrapper_symptoms_depression p{
+    /* padding-top: 3%; */
+    /* width: 40vw; */
+    font-size: 19px;
+    font-family: 'PT Serif', serif; 
+    letter-spacing: 0.3px;
+    line-height: 20px;
+}
+.first_head{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.second_head{
+    text-align: center;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+
+
+
+
+
 
 
 
