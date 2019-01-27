@@ -7,16 +7,18 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-
+   
     height: 77vh;
 }
 .wrapper_intro__text{
     width: 90vw;
     font-family: 'PT Serif', serif;
+    margin-bottom: 3em;
 
 }
 .wrapper_intro img{
     width: 70%;
+    padding-top: 2em;
     
 }
 .wrapper_about_me{
