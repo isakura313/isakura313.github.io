@@ -93,7 +93,7 @@
 .wrapper_about_me_first{
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
+    padding-left: 12%;
     padding-right: 7%;
 }
 .wrapper_about_me__h2{
@@ -106,7 +106,7 @@
 }
 .academic_information{
     display: flex;
-    padding-left: 7%;
+    padding-left: 12%;
     padding-right: 7%;
     padding-bottom: 45px;
     padding-top: 30px;
@@ -120,6 +120,7 @@
     flex-direction:column;
     margin-right: 5em;
     text-align: center;
+    width: 110%;
 }
 .academic__h6{
     letter-spacing: 1.2px;
@@ -143,7 +144,7 @@ hr{
     height: 2px;
 }
 .academic__img img{
-    width: 70%;
+    width: 90%;
     height: auto;
 }
 .academic__img {
@@ -173,20 +174,25 @@ hr{
 
 /* страница про психотерапию */
 .psy_in_our_life__h3{
-    font-family: 'Playfair Display', serif;
     font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
     font-weight: 100;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    -webkit-font-smoothing: 1px;
+    font-weight: normal;
 }
 .psy_in_our_life__h3:first-child{
     margin-top:20px;
     margin-bottom:30px;
 }
 .psy_first_wrapper, .psy_second_wrapper, .psy_third_wrapper{
-    padding-left:13%;
-    padding-right:13%;
+    padding-left: 12%;
+    padding-right: 7%;
 }
 .psy_second_wrapper{
     margin-bottom: 5em;
@@ -197,12 +203,10 @@ hr{
     line-height: 28px;
     letter-spacing: 0.6px;
     -webkit-font-smoothing:subpixel;
-    margin-bottom: 0px;
-    margin-top: 7px;
+    margin-bottom: 2px;
+    margin-top: 9px;
 }
-.psy_in_our_life__p:first-child{
-    text-indent: 30px;
-}
+
 .psy_third_wrapper{
     display: flex;
     justify-content: center;
@@ -214,8 +218,8 @@ hr{
 
 /* начало части метода */
 .method_wrapper_first, .method_wrapper_second, .method_wrapper_third, .method_wrapper_fourth{
-    padding-left:13%;
-    padding-right:13%;
+    padding-left: 12%;
+    padding-right: 7%;
 }
 .method_wrapper_second{
     display: flex;
@@ -223,13 +227,13 @@ hr{
     align-items: center;
 }
 .method_wrapper_second__quote{
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
     width: 60%;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 25px;
-    color: 
+
 }
 .method_wrapper_second__quote p {
     margin-top:9px;
@@ -296,10 +300,14 @@ hr{
     width:80%;
     height: auto;
 }
+.wrapper_symptoms_depression__list{
+    margin-right: 4em;
+}
+
 .wrapper_symptoms_anxious, .wrapper_sympotms_panic, .wrapper_symptoms_depression{
     display: flex;
     align-items:flex-end;
-    justify-content: space-between;
+    /* justify-content: centesr; */
 }
 .wrapper_symptoms_anxious p, .wrapper_sympotms_panic p, .wrapper_symptoms_depression p{
     /* padding-top: 3%; */
@@ -331,6 +339,8 @@ hr{
 /* здесь начинаются контакты */
 .first_contact{
     padding: 20px 7% 82px 7%;
+    padding-left:12%;
+    padding-right:7%;
 }
 .second_part_one{
     text-align:center;
@@ -339,18 +349,19 @@ hr{
 }
 .second_contact{
     display: flex;
-    padding-left:7%;
-    padding-right:7%;
+    padding-left: 7%;
+    padding-right: 7%;
     background-color: #F7F7F7;
     padding-bottom: 55px;
     align-items: flex-end;
+    justify-content: space-between;
 }
 .second_contact__img img{
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 .second_part_second{
-    width: 60%;
+    width: 70%;
     padding-left: 3%;
     padding-right: 3%;
     
@@ -370,7 +381,7 @@ hr{
  .kont_adress{
      /* padding-left:7%;
      padding-right: 7%; */
-     padding: 2% 7% 7%;
+     padding: 2% 12% 7%;
  }
  .kont_adress__map_wrap{
     height:70%;
@@ -391,6 +402,9 @@ hr{
  .conts__p{
    margin:0 0 0 10px;
    
+ }
+ .kont_adress__map_wrap iframe{
+    margin-top: 2em;
  }
  .kont_adress__h5{
     font-family: 'Playfair Display', serif;
