@@ -1,5 +1,6 @@
 *{
     margin:0;
+    padding: 0;
 }
 @font-face{
     font-family: "GOT";
@@ -86,6 +87,8 @@ h3{
     font-family: Arial, serif;
     font-size: 25px;
     padding: 50px 0 20px 84px;
+    position: relative;
+    top:10%;
 }
 .third_wrapper{
     margin-top: 25px;
@@ -94,6 +97,8 @@ h3{
     padding: 0px 40px;
     align-items: flex-end;
     width: 95%;
+    position: relative;
+    top:10%;
 }
 .third_wrapper img{
     width: 100%;
