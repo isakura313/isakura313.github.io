@@ -1,0 +1,11 @@
+body{
+color: orange;
+background-color: aquamarine;
+
+}
+h3{
+    font-size: 100px;
+}
+.row{
+    display: flex;
+}

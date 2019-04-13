@@ -1,0 +1,24 @@
+body{
+    color:white;
+    background: #dc042b;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    width: 650px;
+    font-size: 29px
+}
+.row1{
+    display: flex;
+}
+.row1 p{
+    display: flex;
+    flex-direction: column;
+}
+.row1_img{
+    display: flex;
+    flex-direction: column;
+}
+.row1_img img{
+ width: 800px;   
+}

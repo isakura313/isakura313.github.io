@@ -1,0 +1,50 @@
+body{
+color: white;
+background-color: rgb(56, 120, 141);
+/* display: flex;
+align-items:center ; */
+
+
+}
+.second_row{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+
+height: 400px;
+
+}
+
+
+p{
+    font-size: 20px;
+}
+
+.row{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+.contacts{
+    font-size: 28px;
+    background-color: rgb(30, 158, 126);
+    height: 20vw;
+    /* width: 940px; */
+    float: right;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.contacts img{
+    width: 30%;
+    height:auto;
+    cursor: pointer
+}
+
+
