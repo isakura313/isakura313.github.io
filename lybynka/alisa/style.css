@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+
+}
+h1{
+    padding: 40px;
+}
+img{
+    width:900px;
+
+}
+p{
+    font-size: 28px;
+    padding: 20px;
+    font-family: Georgia;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+
+}
+footer img{
+    width: 70px;
+    height: auto;
+    
+}
+.wrap{
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+}
