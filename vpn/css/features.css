@@ -9,7 +9,7 @@
 
 .features__img {
     margin-top: 50px;
-    background-image: url('/img/man_on_laptop_2.png');
+    background-image: url('../img/man_on_laptop_2.png');
     width: 60%;
     height: 100%;
     background-position: left center;
